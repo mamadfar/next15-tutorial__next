@@ -1,4 +1,6 @@
 import Image from "next/image";
+import Greet from "@/app/component/Greet";
+import Counter from "@/app/component/Counter";
 
 export default function Home() {
   return (
@@ -12,6 +14,8 @@ export default function Home() {
           height={38}
           priority
         />
+        <Greet/>
+        <Counter/>
         <ol className="list-inside list-decimal text-sm text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
           <li className="mb-2">
             Get started by editing{" "}
